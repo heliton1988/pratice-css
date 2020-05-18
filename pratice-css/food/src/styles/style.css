@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* restart */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+/* GLOBAL */
+body {
+  font-family: 'Roboto';
+  background: #FFF;
+}
+
+.head,
+.banner,
+.recipient,
+.plates {
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head h1:hover {
+  cursor: pointer;
+}
+
+.head nav ul {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: 	#363636;
+}
+
+.head nav ul li {
+  list-Style: none;
+  display: inline;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.head nav ul li:hover {
+  font-weight: bold;
+}
+
+.head nav ul li img {
+  width: 15px;
+  height: 15px;
+}
+
+.head nav ul li img:hover {
+  opacity: 0.8;
+}
+
+.head .login ul {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: normal;
+  color: 	#363636;
+}
+
+.head .login ul li {
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+}
+
+.head .login ul li:hover {
+  font-weight: bold;
+}
+
+.head .login ul li:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 14px;
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.head .login ul li:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #FFF;
+  background-color: #000;
+
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.head .login ul li:first-child:hover,
+.head .login ul li:last-child:hover {
+  font-weight: normal;
+  background-color: #363636;
+}
+
+
+/* BANNER */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  background: rgba(255, 134, 117, 0.46);
+
+  border-radius: 30px;
+}
+
+.banner .chefImg img {
+  width: 600px;
+}
+
+.banner .chefText {
+  width: 300px;
+  margin-right: 60px;
+}
+
+.banner .chefText h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.banner .chefText p {
+
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.banner .chefText p a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.banner .chefText p img {
+  padding-left: 10px;
+  width: 15px;
+}
+
+/* CONTENT MENU */
+.recipient {
+  display: flex;
+}
+
+
+.recipient .menu {
+  width: 300px;
+}
+
+.recipient .menu .title {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.recipient .menu .title h3 {
+  font-size: 30px;
+}
+
+.recipient .menu .title img {
+  margin-left: 10px;
+}
+
+/* CONTENT SEARCH */
+.contant {
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search input {
+  width: 500px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 60px;
+  background-color: rgba(220,220,220, 0.22);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(169,169,169);
+  font-size: 14px;
+}
+
+.search img#lupa {
+  position: absolute;
+  width: 16px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.search .newest {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+  height: 40px;
+  padding: 0 10px 0;
+  border-radius: 30px;
+  background-color: #000;
+}
+
+.search .newest p {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.search .newest p #strong {
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+
+.search .newest img {
+  width: 10px;
+  cursor: pointer;
+}
+
+/* CONTENT PLATES */
+.plates {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.plates div.image img {
+  width: 280px;
+  height: 150px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.plates div p {
+  padding-top: 20px;
+}
+
+.plates div .avaliation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.plates div .avaliation p {
+  padding: 0;
+  margin-left: 10px;
+  font-size: 11px;
+}
+
+.plates div .avaliation p span#author {
+  color: 	#A9A9A9;
+  font-size: 12px;
+  margin-left: 110px;
+}
