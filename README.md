@@ -1,6 +1,8 @@
 <h1 align="center">
-  <img src=".github/logo.png" />
+  <img src=".github/logo.png" width="300" />
 </h1>
+
+<h1 align="center">Praticas HTML & CSS</h1>
 
 ## 📃 Sobre
 
