@@ -169,13 +169,14 @@ body {
 
 
 .recipient .menu {
-  width: 300px;
+  width: 350px;
+  margin-right: 50px;
 }
 
 .recipient .menu .title {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 18px;
 }
 
 .recipient .menu .title h3 {
@@ -184,6 +185,57 @@ body {
 
 .recipient .menu .title img {
   margin-left: 10px;
+}
+
+.recipient .menu div.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.recipient .menu div.filter h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.recipient .menu div.filter P {
+  color: rgba(255, 134, 117, 0.95);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.recipient .menu div.options {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.recipient .menu div.options div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recipient .menu div.options div img {
+  width: 22px;
+}
+
+.recipient .menu div.choose {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.recipient .menu div.choose div.meal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 50px;
+}
+
+.recipient .menu div.choose div.meal img {
+  width: 15px;
+  padding-right: 3px;
 }
 
 /* CONTENT SEARCH */
